@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aa148a;
+}
+.todo-applist{
+
+  vertical-align: middle;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 150px 35% 100px 35%;
+
+}

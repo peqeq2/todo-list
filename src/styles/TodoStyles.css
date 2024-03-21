@@ -1,0 +1,32 @@
+
+.todo-div{
+
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.todo-li{
+  display: flex;
+  align-items: center;
+
+}
+
+.checkbox {
+  margin-right: 10px;
+
+}
+
+.button-todo {
+  margin-left: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.completed-task{
+  text-decoration: line-through;
+  color: #d3d3d3;
+}
