@@ -1,15 +1,26 @@
 
 .todo-div{
-
+  padding: 10px;
+  background-color: #FFC374;
   justify-content: space-between;
   margin-bottom: 5px;
   margin-top: 5px;
+  border: 1px solid #FFF3C7;
+  border-radius: 5px;
 }
 
 .todo-li{
   display: flex;
   align-items: center;
 
+
+}
+
+.todo-li span {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .checkbox {

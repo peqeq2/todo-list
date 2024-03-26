@@ -34,6 +34,15 @@ export const TodoList = () => {
     setTodos(updatedTodos);
   };
 
+  const handleEdit = (id, newText) => {
+    const updatedTodos = todos.map((todo) => {
+      if (todo.id === id) {
+        return { ...todo, text: newText };
+      }
+      return todo;
+    });
+    setTodos(updatedTodos);
+  };
 
   return (
     <>
@@ -47,8 +56,9 @@ export const TodoList = () => {
               id={todo.id}
               text={todo.text}
               onRemove={() => removeTask(todo.id)}
-              completed={todo.completed}
+              completed={todo.completed || false}
               onToggle={() => toggleComplete(todo.id)}
+              onEdit={(newText) => handleEdit(todo.id, newText)}
             />
           ))}
         </ul>

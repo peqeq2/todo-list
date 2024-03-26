@@ -10,10 +10,8 @@
 }
 
 .todo-ul {
-  margin: 5px 15% 5px 15%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  margin: 5px 10% 5px 10%;
+  padding: 5px;
   list-style: none;
 }
 
