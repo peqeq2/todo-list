@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+small {
+  font-size: 1rem;
+  color: #888;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-7, .col-5 {
+  padding: 0 1rem;
+}
+
+.col-7 {
+  flex: 0 0 58%;
+}
+
+.col-5 {
+  flex: 0 0 38%;
+}
+
+.list-group {
+  padding: 0;
+  list-style: none;
+}
+
+.list-group-item {
+  background: #fff;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.list-group-item .form-check-input {
+  margin-right: 1rem;
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+}
+
+button.btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Estilos generales para botones */
+button {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Asegúrate de que los formularios tengan un buen espaciado */
+form {
+  margin-bottom: 1rem;
+}
