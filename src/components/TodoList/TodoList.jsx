@@ -4,6 +4,7 @@ import { TodoItem } from "../TodoItem/TodoItem.jsx";
 
 export const TodoList = ({ todos = [], onDeleteTodo, onToggleTodo }) => {
   return (
+
     <ul className="list-group">
       {todos.map((todo) => (
         <TodoItem
@@ -14,6 +15,7 @@ export const TodoList = ({ todos = [], onDeleteTodo, onToggleTodo }) => {
         />
       ))}
     </ul>
+
   );
 };
 

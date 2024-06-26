@@ -2,50 +2,42 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  margin-bottom: 0.5rem;
-  background-color: #fff;
+  padding: 10px 20px;
   border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  transition: background-color 0.3s;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
 }
 
 .list-group-item:hover {
-  background-color: #f8f9fa;
+  background-color: #f9f9f9;
 }
 
-.list-group-item .d-flex {
-  flex: 1;
+.form-check-input {
+  margin-right: 10px;
 }
 
-.list-group-item .form-check-input {
-  margin-right: 1rem;
-}
-
-.list-group-item .btn {
-  margin-left: 1rem;
-  padding: 0.3rem 0.6rem;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.list-group-item .btn:hover {
-  background-color: #dc3545;
-  color: white;
-}
-
-.list-group-item .text-decoration-line-through {
-  text-decoration: line-through;
-  color: #999;
-}
-
-.align-self-center {
+span {
   cursor: pointer;
-  user-select: none;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
-.align-self-center:hover {
-  color: #007bff;
+span.text-decoration-line-through {
+  color: #999;
+  text-decoration: line-through;
+}
+
+button.btn.btn-danger {
+  background-color: #e74c3c;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.btn.btn-danger:hover {
+  background-color: #c0392b;
 }
