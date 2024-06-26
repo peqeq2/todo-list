@@ -8,11 +8,18 @@ export const TodoApp = () => {
 
     return (
         <>
-            <h1>TodoApp: { todosCount }, <small>pendientes: { pendingTodosCount }</small> </h1>
+            <h1>TodoApp: { todosCount }, <small>pending to do: { pendingTodosCount }</small> </h1>
             <hr />
 
             <div className="row">
-                <div className="col-7">
+                <div className="col-5 col-margin">
+                    <h4>Add TODO</h4>
+                    <hr />
+                    <TodoAdd
+                        onNewTodo={ handleNewTodo }
+                    />
+                </div>
+                <div className="col-7 col-margin">
                     <TodoList
                         todos={ todos }
                         onDeleteTodo={ handleDeleteTodo }
@@ -20,13 +27,6 @@ export const TodoApp = () => {
                     />
                 </div>
 
-                <div className="col-5">
-                    <h4>Agregar TODO</h4>
-                    <hr />
-                    <TodoAdd
-                        onNewTodo={ handleNewTodo }
-                    />
-                </div>
             </div>
         </>
     );
